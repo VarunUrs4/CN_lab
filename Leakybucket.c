@@ -28,23 +28,23 @@ void main()
             {
                 remainingSize += inputRate;
 
-                printf("\n The capacity of bucket (before output flow) : %d",remainingSize);
+                printf("\n The present size of bucket (before output flow) : %d",remainingSize);
                 remainingSize -= outputRate;
-                printf("\n The capacity of bucket now : %d\n",remainingSize);
+                printf("\n The present size of bucket now : %d\n",remainingSize);
             }
             else
             {
                 printf("\n Bucket is Full!!!!!!! Cannot accept the input!!!");
-                printf("\n The capacity of bucket now : %d\n",remainingSize);
+                printf("\n The present size of bucket now : %d\n",remainingSize);
 
             }
         }
 
         else
         {
-            printf("\n The capacity of bucket (before output flow) : %d",remainingSize);
+            printf("\n The present size of bucket (before output flow) : %d",remainingSize);
             remainingSize -= outputRate;
-            printf("\n The capacity of bucket now : %d\n",remainingSize);
+            printf("\n The present size of bucket now : %d\n",remainingSize);
         }
     }
 }
